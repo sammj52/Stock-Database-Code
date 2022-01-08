@@ -2,7 +2,7 @@ import time
 import datetime
 import pandas as pd
 
-ticker = 'MSFT'
+ticker = 'AAPL'
 period1 = int(time.mktime(datetime.datetime(2021, 12, 15, 23, 59).timetuple()))
 period2 = int(time.mktime(datetime.datetime(2022, 1, 6, 23, 59).timetuple()))
 
